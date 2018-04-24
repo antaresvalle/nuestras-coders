@@ -1,0 +1,41 @@
+body {
+	/*box-sizing: border-box;*/
+	font-family: "Arial", sans-serif;
+}
+
+h1 {
+	margin-left: 6.5em;
+	margin-bottom: 0.5em;
+}
+
+section {
+	margin: 5%;
+	width: 80%;
+}
+
+hr {
+	border: solid purple 2px;
+	width: 10em;
+	left: 14em;
+	position: absolute;
+}
+
+p {
+	text-align: right;
+	margin-top: -20%;
+	font-size: 30px;
+	padding-right: 1em;
+	color: white;
+}
+
+.portrait img {
+	width: 100%;
+	mask-image: linear-gradient(to bottom, transparent 25%, black 75%);
+}
+
+.portrait {
+	height: 16.5em;
+	width: 20%;
+	display: inline-block;
+	margin-left: 10%;
+}
